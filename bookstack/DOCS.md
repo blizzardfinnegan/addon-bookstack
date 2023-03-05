@@ -26,8 +26,10 @@ ssl: false
 certfile: fullchain.pem
 keyfile: privkey.pem
 envvars:
-  - name: SESSION_COOKIE_NAME
-    value: bookstack_session
+  - name: ENVIRONMENT_VARIABLE_1
+    value: variable_1_value
+  - name: ENVIRONMENT_VARIABLE_2
+    value: variable_2_value
 ```
 
 **Note**: _This is just an example, don't copy and paste it! Create your own!_
